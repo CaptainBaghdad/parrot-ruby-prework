@@ -1,6 +1,9 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
 def parrot(phrase = "Squawk!")
-   phrase  == "Squawk!" ? return "Squawk" : puts phrase
-  
+  if phrase  == "Squawk!" ?  
+  return "Squawk"
+else 
+  puts phrase
+end
 end 
